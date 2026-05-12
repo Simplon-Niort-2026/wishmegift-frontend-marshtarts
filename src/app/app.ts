@@ -1,16 +1,17 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Stars } from "./shared/stars/stars";
 import { faTrashCan, faPenToSquare, faPlus, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { Tag } from './shared/tag/tag';
 import { Icon } from './shared/icon/icon';
 
-
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Tag, Icon],
+  imports: [RouterOutlet, Stars, Tag, Icon],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
+
 export class App {
   protected readonly title = signal('mon-projet');
 
