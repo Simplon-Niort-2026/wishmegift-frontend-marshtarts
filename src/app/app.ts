@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { faTrashCan, faPenToSquare, faPlus, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { Icon } from './shared/icon/icon';
-import { faTrashCan, faStar, faPenToSquare, faPlus, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -17,4 +17,10 @@ export class App {
   iconPencil = faPenToSquare;
   iconPlus = faPlus;
   iconProfil = faCircleUser;
+
+  clickable() {
+    console.log("Cette icône est clickable !");
+    
+  }
+
 }

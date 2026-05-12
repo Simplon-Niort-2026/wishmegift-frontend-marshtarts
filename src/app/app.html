@@ -1,5 +1,9 @@
-<app-icon [icon]="iconTrash" size="2x" color="#3b82f6" />
-<app-icon [icon]="iconPencil" size="2x" color="#3b82f6" />
-<app-icon [icon]="iconPlus" size="2x" color="#3b82f6" />
-<app-icon [icon]="iconProfil" size="2x" color="#3b82f6" />
+<!-- Pour l'utilisation d'un icon, il faut :
+
+  <app-icon [icon]="nomIcon" size="2x" color="" (click)="fonctionAssociée()" />
+
+-->
+
+<app-icon [icon]="iconTrash" size="2x" color="787787" (click)="clickable()"></app-icon>
+
 <router-outlet />

@@ -1,1 +1,7 @@
-<fa-icon [icon]="icon()" [style.color]="color()" [size]="size()"></fa-icon>
+<fa-icon
+  [icon]="icon()"
+  [size]="size()"
+  [style.color]="color()"
+  (click)="clickable() && handleClick()"
+  class="icon"
+></fa-icon>
