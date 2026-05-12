@@ -7,7 +7,7 @@ import { Icon } from './shared/icon/icon';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Stars],
+  imports: [RouterOutlet, Stars, Tag, Icon],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
