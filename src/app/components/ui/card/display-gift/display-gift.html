@@ -13,11 +13,7 @@
   </div>
   <div class="gift-row gift-row--actions">
     <span class="gift-label">Niveau d'envie</span>
-    <div class="gift-stars">
-      @for (i of [1,2,3,4,5]; track i) {
-        <span class="star" [class.filled]="i <= envy">&#9733;</span>
-      }
-    </div>
+    <app-display-star [rating]="envy()" />
     <button class="gift-btn">Réserver le cadeau</button>
   </div>
 </div>
