@@ -1,0 +1,71 @@
+.gift-card {
+  background-color: #790945;
+  border-radius: 6px;
+  padding: 8px 24px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.gift-row {
+  display: flex;
+  align-items: center;
+  padding: 14px 0;
+  gap: 16px;
+}
+
+.gift-label {
+  font-weight: bold;
+  min-width: 150px;
+  padding-right: 8px;
+}
+
+.gift-value {
+  flex: 1;
+}
+
+.gift-link {
+  color: #0091eb;
+  text-decoration: none;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gift-link:hover {
+  text-decoration: underline;
+}
+
+.gift-row--actions {
+  justify-content: space-between;
+}
+
+.gift-stars {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+}
+
+.star {
+  font-size: 2rem;
+  color: #555;
+}
+
+.star.filled {
+  color: #ccc;
+}
+
+.gift-btn {
+  background-color: #D8D8D8;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.gift-btn:hover {
+  background-color: #c0c0c0;
+}

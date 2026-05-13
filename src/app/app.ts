@@ -4,10 +4,10 @@ import { Stars } from "./shared/stars/stars";
 import { faTrashCan, faPenToSquare, faPlus, faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { Tag } from './shared/tag/tag';
 import { Icon } from './shared/icon/icon';
-
+import { DisplayGift } from './components/ui/card/display-gift/display-gift';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Stars, Tag, Icon],
+  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

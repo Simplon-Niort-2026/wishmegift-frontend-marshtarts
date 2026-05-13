@@ -1,0 +1,23 @@
+<div class="gift-card">
+  <div class="gift-row">
+    <span class="gift-label">Nom cadeau</span>
+    <span class="gift-value">{{ title }}</span>
+  </div>
+  <div class="gift-row">
+    <span class="gift-label">Lien du cadeau</span>
+    <a [href]="link" class="gift-link">{{ link }}</a>
+  </div>
+  <div class="gift-row">
+    <span class="gift-label">Prix cadeau</span>
+    <span class="gift-value">{{ price }} €</span>
+  </div>
+  <div class="gift-row gift-row--actions">
+    <span class="gift-label">Niveau d'envie</span>
+    <div class="gift-stars">
+      @for (i of [1,2,3,4,5]; track i) {
+        <span class="star" [class.filled]="i <= envy">&#9733;</span>
+      }
+    </div>
+    <button class="gift-btn">Réserver le cadeau</button>
+  </div>
+</div>
