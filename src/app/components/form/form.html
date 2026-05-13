@@ -1,0 +1,14 @@
+<form>
+    <input [value]="title()"
+    (input)="title.set($event.target.value)"
+    placeholder="Titre du cadeau" />
+<input [value]="link()"
+    (input)="link.set($event.target.value)"
+    placeholder="Lien du cadeau" />
+<input
+type="number" 
+[value]="price()"
+    (input)="price.set(+$event.target.value)"
+    placeholder="Prix du cadeau" />
+<button type="submit">Ajouter le cadeau</button>
+</form>
