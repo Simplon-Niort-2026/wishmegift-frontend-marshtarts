@@ -36,25 +36,6 @@
   text-decoration: underline;
 }
 
-.gift-row--actions {
-  justify-content: space-between;
-}
-
-.gift-stars {
-  display: flex;
-  gap: 4px;
-  flex: 1;
-}
-
-.star {
-  font-size: 2rem;
-  color: #555;
-}
-
-.star.filled {
-  color: #ccc;
-}
-
 .gift-btn {
   background-color: #D8D8D8;
   color: #333;
@@ -64,6 +45,7 @@
   cursor: pointer;
   white-space: nowrap;
   font-size: 14px;
+  margin-left: 600px;
 }
 
 .gift-btn:hover {

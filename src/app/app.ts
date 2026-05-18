@@ -23,7 +23,7 @@ export class App {
 
   clickable() {
     console.log("Cette icône est clickable !");
-    
+
   }
 
 }
