@@ -5,9 +5,10 @@ import { faTrashCan, faPenToSquare, faPlus, faCircleUser } from '@fortawesome/fr
 import { Tag } from './shared/tag/tag';
 import { Icon } from './shared/icon/icon';
 import { DisplayGift } from './components/ui/card/display-gift/display-gift';
+import { FormGift } from './components/ui/card/form-gift/form-gift';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift],
+  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift, FormGift],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
@@ -15,7 +16,7 @@ import { DisplayGift } from './components/ui/card/display-gift/display-gift';
 export class App {
   protected readonly title = signal('mon-projet');
 
-  iconTrash = faTrashCan;
+ 
   iconPencil = faPenToSquare;
   iconPlus = faPlus;
   iconProfil = faCircleUser;
