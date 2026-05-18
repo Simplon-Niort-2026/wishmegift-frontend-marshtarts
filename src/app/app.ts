@@ -6,9 +6,10 @@ import { Tag } from './shared/tag/tag';
 import { Icon } from './shared/icon/icon';
 import { DisplayGift } from './components/ui/card/display-gift/display-gift';
 import { FormGift } from './components/ui/card/form-gift/form-gift';
+import { Header } from "./shared/header/header";
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift, FormGift],
+  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift, FormGift, Header],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
