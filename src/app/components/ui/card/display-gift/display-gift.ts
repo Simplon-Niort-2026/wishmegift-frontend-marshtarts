@@ -11,5 +11,5 @@ export class DisplayGift {
   @Input() title: string = '';
   @Input() link: string = '';
   @Input() price: number = 0;
-  envy = signal<number>(3);
+  @Input() envy: number = 0;
 }
