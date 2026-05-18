@@ -1,0 +1,19 @@
+.nav_title{
+    color:white;
+    padding-left: 3%;
+}
+
+.nav_icon{
+    padding-right: 3%;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #790945;
+    font-family: 'Roboto', sans-serif;
+    height: 90px;
+
+}
