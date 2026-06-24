@@ -7,9 +7,11 @@ import { Icon } from './shared/icon/icon';
 import { DisplayGift } from './components/ui/card/display-gift/display-gift';
 import { FormGift } from './components/ui/card/form-gift/form-gift';
 import { Header } from "./shared/header/header";
+import { ReserveButton } from './shared/reserve-button/reserve-button';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift, FormGift, Header],
+  imports: [RouterOutlet, Stars, Tag, Icon, DisplayGift, FormGift, Header, ReserveButton],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
@@ -17,7 +19,7 @@ import { Header } from "./shared/header/header";
 export class App {
   protected readonly title = signal('mon-projet');
 
- 
+
   iconPencil = faPenToSquare;
   iconPlus = faPlus;
   iconProfil = faCircleUser;
