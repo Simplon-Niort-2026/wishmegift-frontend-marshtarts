@@ -11,6 +11,5 @@ export class Tag {
   @Input() tag : string = '';
   @Input() color : string = '#000000';
 
-  
 }
 

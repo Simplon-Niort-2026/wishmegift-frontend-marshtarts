@@ -59,20 +59,6 @@
   color: #ccc;
 }
 
-.gift-btn {
-  background-color: #D8D8D8;
-  color: #333;
-  border: none;
-  border-radius: 20px;
-  padding: 8px 20px;
-  cursor: pointer;
-  white-space: nowrap;
-  font-size: 14px;
-}
-
-.gift-btn:hover {
-  background-color: #c0c0c0;
-}
 
 .gift-input {
   flex: 1;
@@ -96,4 +82,11 @@
 
 .star {
   cursor: pointer;
+  width: 100%;
+}
+
+
+.trash-icon {
+ margin-left: 95%;
+ margin-bottom: 2%;
 }
