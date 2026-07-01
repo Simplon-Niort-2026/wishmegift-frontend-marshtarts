@@ -1,0 +1,14 @@
+.gift-btn {
+  background-color: #D8D8D8;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.gift-btn:hover {
+  background-color: #c0c0c0;
+}

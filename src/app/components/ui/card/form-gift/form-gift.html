@@ -14,12 +14,10 @@
   <div class="gift-row gift-row--actions">
     <span class="gift-label">Niveau d'envie</span>
     <div class="gift-stars">
-      @for (i of [1,2,3,4,5]; track i) {
-        <span class="star" [class.filled]="i <= envy()" (click)="envy.set(i)">&#9733;</span>
-      }
+      <app-stars />
     </div>
   </div>
-  <div>
+  <div class="trash-icon">
     <app-icon [icon]="iconTrash" (click)="deleted.emit()" color="787787" size="2x"></app-icon>
   </div>
 </div>

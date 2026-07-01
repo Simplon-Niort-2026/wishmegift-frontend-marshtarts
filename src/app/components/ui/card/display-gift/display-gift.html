@@ -14,6 +14,8 @@
   <div class="gift-row gift-row--actions">
     <span class="gift-label">Niveau d'envie</span>
     <app-display-star [rating]="envy" />
-    <button class="gift-btn">Réserver le cadeau</button>
+  </div>
+  <div class="reserve-button">
+    <app-reserve-button  [reserved]="true" [label]="'Réservé'" [type]="'reserve'"></app-reserve-button>
   </div>
 </div>
